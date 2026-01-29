@@ -1,0 +1,24 @@
+C++ Variables
+
+varaile are container for storing data values 
+in C++, there are differents type of variables(defined with differents keywords), for example:
+    int  - stores intergers(whole numbers), without decimals, such as 123 or -123
+    double - stores floatin point numbers, with decimals, such as 19.99 or -19.99
+    char - stores single characters,such as 'a' or 'B', Char values are surrounded by single quotes
+    string - stores text, such as "Hello world", Sring values are surrounded by double quotes
+    bool - stores values with two states: true or false
+
+boolean can have 1 byte of size
+char can have 1 byte of size
+int can have 2 or 4 bytes of size
+float can have 4 bytes of size
+double can have 8 bytes of size
+
+Scientific numbers
+
+a floating point number can also be a scientific number with an "e" to indicate the power of 10.
+Example
+float f1 = 35e3;
+double d1 = 12E4;
+cout << f1;
+cout << d1;
