@@ -1,0 +1,95 @@
+# -------------------------------------------------
+# OS junk
+# -------------------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# -------------------------------------------------
+# Build outputs (generic)
+# -------------------------------------------------
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+
+# -------------------------------------------------
+# Debug / profile artifacts
+# -------------------------------------------------
+*.pdb
+*.idb
+*.ilk
+*.dSYM/
+*.stackdump
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# -------------------------------------------------
+# Dependency files
+# -------------------------------------------------
+*.d
+
+# -------------------------------------------------
+# CMake (if you use it later)
+# -------------------------------------------------
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# -------------------------------------------------
+# VS Code
+# Keep settings/tasks/launch if you want; ignore cache
+# -------------------------------------------------
+.vscode/.browse.VC.db*
+.vscode/ipch/
+.vscode/.cache/
+.vscode/*.log
+
+# If you prefer not to commit VS Code config, uncomment:
+# .vscode/
+
+# -------------------------------------------------
+# Visual Studio (if you open the folder/solution there)
+# -------------------------------------------------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+ipch/
+Debug/
+Release/
+x64/
+x86/
+
+# -------------------------------------------------
+# Code::Blocks / CLion / other IDEs
+# -------------------------------------------------
+*.cbp
+*.layout
+*.depend
+.idea/
+
+# -------------------------------------------------
+# Temporary / backups
+# -------------------------------------------------
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
